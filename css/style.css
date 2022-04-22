@@ -322,7 +322,7 @@ ul {
   fill: var(--icon-color);
 }
 .button-icon:hover {
-  fill: var(--accented-text-color);
+  background-color: var(--accented-text-color);
   border-radius: 50%;
   box-shadow: none;
   fill: #ffffff;
@@ -363,7 +363,8 @@ ul {
   display: block;
   margin: auto;
 }
-.client-icon:hover .client-icon:focus {
+.client-icon:hover,
+.client-icon:focus {
   fill: var(--accented-text-color);
   cursor: pointer;
 }
