@@ -363,7 +363,7 @@ ul {
   display: block;
   margin: auto;
 }
-.client-icon:hover {
+.client-icon:hover .client-icon:focus {
   fill: var(--accented-text-color);
   cursor: pointer;
 }
